@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+*{
+	font-family:sans-serif;
+}
+main{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+form{
+	width:50vw;
+	height:60vh;
+	padding:30px;
+	border-radius:10px;
+	background-color:#ab1a;
+	display:flex;
+	align-items:center;
+	
+}
+
+
+
+
+
+

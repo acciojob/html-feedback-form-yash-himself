@@ -10,16 +10,16 @@
 	<!-- the entire body must be written by student -->
 	<main>
 		<h1>Feedback Form</h1>
-		<form>
+		<form method="post">
 			<div>
-		<label for="name">Name</label><input name="name" id="name" type="text" min="3" maxlength="50" required>
+		<label for="name">Name</label><input name="name" id="name" type="text" minlength="3" maxlength="50" required>
 		<br><br>
 		<label for="portfolio">Portfolio</label><input name="portfolio" id="portfolio" type="url" required>
 		<br><br>
 		<label for="favColor">Fav Color</label><input name="favColor" id="favColor" type="color" required>
 		<br><br>
 		<label for="likeness">Tell us why you like that color:</label><br>
-			<textarea id="likeness" min="1"  maxlength="100"></textarea>
+			<textarea id="likeness" minlength="1"  maxlength="100"></textarea>
 </div>
 		</form>
 	</main>
